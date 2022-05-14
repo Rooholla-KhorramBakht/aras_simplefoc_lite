@@ -1,0 +1,9 @@
+Change Component Footprint: Designator=R1 Old Footprint=_1206 New Footprint=_0805
+Change Component Footprint: Designator=R2 Old Footprint=_1206 New Footprint=_0805
+Change Component Footprint: Designator=R3 Old Footprint=_1206 New Footprint=_0805
+Change Component Footprint: Designator=R4 Old Footprint=_1206 New Footprint=_0805
+Change Component Footprint: Designator=R5 Old Footprint=_1206 New Footprint=_0805
+Change Component Footprint: Designator=R6 Old Footprint=_1206 New Footprint=_0805
+Added Member To Class: ClassName=mcu Member=Component J ENC/I2C
+Added Member To Class: ClassName=mcu Member=Component J CAN
+Added Room: Name=power

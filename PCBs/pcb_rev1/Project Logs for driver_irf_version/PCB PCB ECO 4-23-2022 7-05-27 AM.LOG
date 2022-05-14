@@ -1,0 +1,11 @@
+Added Component: Designator=UP1(SOT223_N)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Data"; Value = "16-12-2016"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Designer"; Value = "Ali Hafizi"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=UP1-1
+Added Pin To Net: NetName=3V3 Pin=UP1-2
+Added Pin To Net: NetName=+5v Pin=UP1-3
+Added Pin To Net: NetName=3V3 Pin=UP1-4
+Added Member To Class: ClassName=mcu Member=Component J ENC/I2C
+Added Member To Class: ClassName=mcu Member=Component J CAN
+Added Member To Class: ClassName=power Member=Component UP1 3V3

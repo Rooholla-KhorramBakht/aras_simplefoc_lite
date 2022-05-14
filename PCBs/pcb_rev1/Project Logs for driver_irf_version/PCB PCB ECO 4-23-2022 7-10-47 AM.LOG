@@ -1,0 +1,21 @@
+Added Component: Designator=U5(SOIC127P600X175-8N)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Availability"; Value = "In Stock"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/TJA1050T/CM,118/NXP%20USA%20Inc./view-part/304529/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "NXP USA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "TJA1050T/CM,118"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "SO-8 NXP Semiconductors"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Purchase-URL"; Value = "https://pricing.snapeda.com/search/part/TJA1050T/CM,118/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/TJA1050T/CM,118/NXP%20USA%20Inc./view-part/304529/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=CAN_TXD Pin=U5-1
+Added Pin To Net: NetName=GND Pin=U5-2
+Added Pin To Net: NetName=+5v Pin=U5-3
+Added Pin To Net: NetName=CAN_RXD Pin=U5-4
+Added Pin To Net: NetName=CAN_L Pin=U5-6
+Added Pin To Net: NetName=CAN_H Pin=U5-7
+Added Pin To Net: NetName=GND Pin=U5-8
+Added Member To Class: ClassName=mcu Member=Component J ENC/I2C
+Added Member To Class: ClassName=mcu Member=Component J CAN
+Added Member To Class: ClassName=mcu Member=Component U5 TJA1050T/CM,118

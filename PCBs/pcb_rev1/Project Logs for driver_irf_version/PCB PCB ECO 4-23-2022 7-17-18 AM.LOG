@@ -1,0 +1,30 @@
+Added Component: Designator=J5(M3 Spade Hole)
+Add component. Clean all parameters for all variants
+Added Component: Designator=J6(M3 Spade Hole)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R23(_0805)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "0R"; VariantName = "[No Variations]"
+Added Component: Designator=R24(_0805)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "4.7K"; VariantName = "[No Variations]"
+Added Component: Designator=R25(_0805)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "4.7K"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=DCBUS Pin=J5-1
+Added Pin To Net: NetName=PGND Pin=J6-1
+Added Pin To Net: NetName=PGND Pin=R23-1
+Added Pin To Net: NetName=GND Pin=R23-2
+Added Pin To Net: NetName=DCBUS Pin=R24-2
+Added Pin To Net: NetName=GND Pin=R25-1
+Added Pin To Net: NetName=VBUS_SENSE Pin=IC1-6
+Added Pin To Net: NetName=VBUS_SENSE Pin=R24-1
+Added Pin To Net: NetName=VBUS_SENSE Pin=R25-2
+Added Net: Name=VBUS_SENSE
+Added Member To Class: ClassName=power Member=Component J5 
+Added Member To Class: ClassName=power Member=Component J6 
+Added Member To Class: ClassName=mcu Member=Component J ENC/I2C
+Added Member To Class: ClassName=mcu Member=Component J CAN
+Added Member To Class: ClassName=power Member=Component R23 Resistor
+Added Member To Class: ClassName=mcu Member=Component R24 Resistor
+Added Member To Class: ClassName=mcu Member=Component R25 Resistor

@@ -1,0 +1,19 @@
+Removed Pin From Net: NetName=GND Pin=R23-2
+Removed Member From Class: ClassName=power Member=R23
+Added Pin To Net: NetName=GND Pin=C1-2
+Added Pin To Net: NetName=GND Pin=C2-2
+Added Pin To Net: NetName=GND Pin=C5-2
+Added Pin To Net: NetName=GND Pin=C6-2
+Added Pin To Net: NetName=GND Pin=C11-2
+Added Pin To Net: NetName=GND Pin=C12-2
+Added Pin To Net: NetName=GND Pin=J6-1
+Added Pin To Net: NetName=GND Pin=Q4-S
+Added Pin To Net: NetName=GND Pin=Q5-S
+Added Pin To Net: NetName=GND Pin=Q6-S
+Added Pin To Net: NetName=GND Pin=U1-4
+Added Pin To Net: NetName=GND Pin=U2-4
+Added Pin To Net: NetName=GND Pin=U4-4
+Added Member To Class: ClassName=mcu Member=Component J UART
+Added Member To Class: ClassName=mcu Member=Component J ENC/I2C
+Added Room: Name=mcu
+Added Room: Name=power

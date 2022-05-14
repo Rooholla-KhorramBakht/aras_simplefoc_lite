@@ -1,0 +1,7 @@
+Added Pin To Net: NetName=HC Pin=IC1-8
+Added Pin To Net: NetName=HB Pin=IC1-9
+Added Pin To Net: NetName=HA Pin=IC1-10
+Added Member To Class: ClassName=mcu Member=Component J ENC/I2C
+Added Member To Class: ClassName=mcu Member=Component J UART
+Added Room: Name=mcu
+Added Room: Name=power
