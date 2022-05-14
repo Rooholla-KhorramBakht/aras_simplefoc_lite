@@ -1,0 +1,3 @@
+Added Pin To Net: NetName=DO Pin=U1-9
+Added Pin To Net: NetName=CLK Pin=U1-10
+Added Pin To Net: NetName=CS Pin=U1-11
