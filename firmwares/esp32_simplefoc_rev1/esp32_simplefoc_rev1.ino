@@ -37,6 +37,7 @@ void setup() {
   // Setup the interface
   Serial.begin(115200);
   rc1.enableInterrupts(handleRC);
+  pinMode(ENABLE_PIN, INPUT_PULLUP);
   
   // Setup the sensor
   sensor.init();
@@ -76,6 +77,10 @@ void setup() {
 float motor_cmd = 0;
 
 void loop() {
- motor.move(rc1.readNormalized());
+ if(digitalRead(ENABLE_PIN)==LOW)
+    motor.move(rc1.readNormalized());
+ else
+    motor.move(0);
+ 
  delay(10);
 }

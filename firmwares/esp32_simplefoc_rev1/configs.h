@@ -7,6 +7,7 @@
 // PIN Definitions
 // RC channle 1 pin
 #define RC1_PIN 15 
+#define ENABLE_PIN 13
 
 // driver pins
 #define PWM_U 26
