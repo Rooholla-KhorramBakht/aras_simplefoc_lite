@@ -1,8 +1,0 @@
-Removed Pin From Net: NetName=DCBUS Pin=C15-1
-Removed Pin From Net: NetName=DCBUS Pin=U-7
-Added Pin To Net: NetName=+12V Pin=C15-1
-Added Pin To Net: NetName=+12V Pin=U-7
-Added Member To Class: ClassName=mcu Member=Component J ENC/I2C
-Added Member To Class: ClassName=mcu Member=Component J UART
-Added Room: Name=mcu
-Added Room: Name=power

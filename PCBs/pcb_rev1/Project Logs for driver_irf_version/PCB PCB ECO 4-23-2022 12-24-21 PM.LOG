@@ -1,7 +1,0 @@
-Added Pin To Net: NetName=3V3 Pin=C16-1
-Added Pin To Net: NetName=3V3 Pin=L1-2
-Added Pin To Net: NetName=3V3 Pin=R8-2
-Added Member To Class: ClassName=mcu Member=Component J ENC/I2C
-Added Member To Class: ClassName=mcu Member=Component J UART
-Added Room: Name=mcu
-Added Room: Name=power
