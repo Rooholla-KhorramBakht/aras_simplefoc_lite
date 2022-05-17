@@ -1,0 +1,12 @@
+Removed Pin From Net: NetName=CS Pin=J7-2
+Removed Pin From Net: NetName=MOSI Pin=J7-3
+Removed Pin From Net: NetName=MISO Pin=J7-4
+Removed Pin From Net: NetName=SCK Pin=J7-5
+Added Pin To Net: NetName=IO0 Pin=J7-2
+Added Pin To Net: NetName=EN Pin=J7-3
+Added Pin To Net: NetName=CS Pin=J7-4
+Added Pin To Net: NetName=MOSI Pin=J7-5
+Added Pin To Net: NetName=MISO Pin=J7-6
+Added Pin To Net: NetName=SCK Pin=J7-7
+Added Room: Name=mcu
+Added Room: Name=power

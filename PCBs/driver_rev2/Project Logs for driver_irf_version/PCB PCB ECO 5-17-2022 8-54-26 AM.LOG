@@ -1,0 +1,5 @@
+Added Pin To Net: NetName=MOTOR_TMP Pin=IC1-26
+Added Pin To Net: NetName=MOTOR_TMP Pin=J9-2
+Added Net: Name=MOTOR_TMP
+Added Room: Name=mcu
+Added Room: Name=power
