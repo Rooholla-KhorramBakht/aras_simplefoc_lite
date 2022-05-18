@@ -1,6 +1,0 @@
-Change Component Footprint: Designator=C22 Old Footprint=_1206 New Footprint=_0805
-Change Component Footprint: Designator=C23 Old Footprint=_1206 New Footprint=_0805
-Added Member To Class: ClassName=mcu Member=Component J UART
-Added Member To Class: ClassName=mcu Member=Component J ENC/I2C
-Added Room: Name=mcu
-Added Room: Name=power

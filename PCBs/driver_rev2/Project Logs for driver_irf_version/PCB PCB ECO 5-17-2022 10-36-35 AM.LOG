@@ -1,0 +1,40 @@
+Added Component: Designator=J7(JST_FH_8P)
+Add component. Clean all parameters for all variants
+Added Component: Designator=J8(JST_FH_6P)
+Add component. Clean all parameters for all variants
+Added Component: Designator=J9(JST_FH_6P)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=+5V Pin=J7-1
+Added Pin To Net: NetName=+5V Pin=J7-1
+Added Pin To Net: NetName=EN Pin=J7-2
+Added Pin To Net: NetName=IO0 Pin=J7-3
+Added Pin To Net: NetName=CS Pin=J7-4
+Added Pin To Net: NetName=MOSI Pin=J7-5
+Added Pin To Net: NetName=MISO Pin=J7-6
+Added Pin To Net: NetName=SCK Pin=J7-7
+Added Pin To Net: NetName=S_REF Pin=J7-8
+Added Pin To Net: NetName=S_REF Pin=J7-b1
+Added Pin To Net: NetName=S_REF Pin=J7-b2
+Added Pin To Net: NetName=+5V Pin=J8-1
+Added Pin To Net: NetName=+5V Pin=J8-1
+Added Pin To Net: NetName=RXD2 Pin=J8-2
+Added Pin To Net: NetName=TXD2 Pin=J8-3
+Added Pin To Net: NetName=RXD0 Pin=J8-4
+Added Pin To Net: NetName=TXD0 Pin=J8-5
+Added Pin To Net: NetName=S_REF Pin=J8-6
+Added Pin To Net: NetName=S_REF Pin=J8-b1
+Added Pin To Net: NetName=S_REF Pin=J8-b2
+Added Pin To Net: NetName=+5V Pin=J9-1
+Added Pin To Net: NetName=+5V Pin=J9-1
+Added Pin To Net: NetName=MOTOR_TMP Pin=J9-2
+Added Pin To Net: NetName=HALL1 Pin=J9-3
+Added Pin To Net: NetName=HALL2 Pin=J9-4
+Added Pin To Net: NetName=HALL3 Pin=J9-5
+Added Pin To Net: NetName=S_REF Pin=J9-6
+Added Pin To Net: NetName=S_REF Pin=J9-b1
+Added Pin To Net: NetName=S_REF Pin=J9-b2
+Added Member To Class: ClassName=mcu Member=Component J7 I2C/SPI
+Added Member To Class: ClassName=mcu Member=Component J8 UART
+Added Member To Class: ClassName=mcu Member=Component J9 HALL/ENCODER
+Added Room: Name=mcu
+Added Room: Name=power

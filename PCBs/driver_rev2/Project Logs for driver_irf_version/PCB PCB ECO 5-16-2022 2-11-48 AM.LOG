@@ -1,0 +1,20 @@
+Added Component: Designator=J1(M3 Spade Hole)
+Add component. Clean all parameters for all variants
+Added Component: Designator=J2(M3 Spade Hole)
+Add component. Clean all parameters for all variants
+Added Component: Designator=J3(M3 Spade Hole)
+Add component. Clean all parameters for all variants
+Added Component: Designator=J4(M3 Spade Hole)
+Add component. Clean all parameters for all variants
+Added Component: Designator=J?(M3 Spade Hole)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=PHA Pin=J1-1
+Added Pin To Net: NetName=PHB Pin=J2-1
+Added Pin To Net: NetName=PHC Pin=J3-1
+Added Pin To Net: NetName=PHD Pin=J4-1
+Added Member To Class: ClassName=power Member=Component J1 
+Added Member To Class: ClassName=power Member=Component J2 
+Added Member To Class: ClassName=power Member=Component J3 
+Added Member To Class: ClassName=power Member=Component J4 
+Added Member To Class: ClassName=power Member=Component J? M3 Spade Terminal
+Added Room: Name=power

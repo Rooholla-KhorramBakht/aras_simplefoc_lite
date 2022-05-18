@@ -1,9 +1,0 @@
-Removed Pin From Net: NetName=A_N Pin=J8-2
-Removed Pin From Net: NetName=A_P Pin=J8-3
-Change Component Comment : Designator=J8 Old Comment=ANALOG_CMD New Comment=CAN/ANG
-Added Pin To Net: NetName=CAN RX Pin=J8-2
-Added Pin To Net: NetName=CAN TX Pin=J8-3
-Added Member To Class: ClassName=mcu Member=Component J UART
-Added Member To Class: ClassName=mcu Member=Component J ENC/I2C
-Added Room: Name=mcu
-Added Room: Name=power

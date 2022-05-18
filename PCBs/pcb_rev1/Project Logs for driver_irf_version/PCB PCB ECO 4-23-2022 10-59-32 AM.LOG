@@ -1,5 +1,0 @@
-Removed Pin From Net: NetName=HA Pin=IC1-10
-Added Pin To Net: NetName=G_EN Pin=IC1-10
-Added Pin To Net: NetName=HA Pin=IC1-11
-Added Member To Class: ClassName=mcu Member=Component J ENC/I2C
-Added Member To Class: ClassName=mcu Member=Component J UART
