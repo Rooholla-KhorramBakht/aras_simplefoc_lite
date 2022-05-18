@@ -28,8 +28,10 @@ void handleRC() {rc1.isr();}
   void doC(){sensor.handleC();}
 #endif
 
-void IRAM_ATTR focLoopCallback() {
-  motor.loopFOC();
+bool RUN_FOC_FLAG=false;
+
+void focLoopCallback() {
+  RUN_FOC_FLAG=true;
 }
  
 void setup() {
@@ -70,17 +72,20 @@ void setup() {
   //Set up a timer to execute the loopFPC every 500 us (2KHz loop frequency)
   foc_loop_timer = timerBegin(0, 80, true);
   timerAttachInterrupt(foc_loop_timer, &focLoopCallback, true);
-  timerAlarmWrite(foc_loop_timer, 500, true);
+  timerAlarmWrite(foc_loop_timer, 250, true);
   timerAlarmEnable(foc_loop_timer);
 }
 
 float motor_cmd = 0;
 
 void loop() {
- if(digitalRead(ENABLE_PIN)==LOW)
-    motor.move(rc1.readNormalized());
- else
-    motor.move(0);
- 
- delay(10);
+if(RUN_FOC_FLAG)
+{
+  motor.loopFOC();
+  RUN_FOC_FLAG=false;
+}
+if(digitalRead(ENABLE_PIN)==LOW)
+  motor.move(rc1.readNormalized());
+else
+  motor.move(0);
 }
