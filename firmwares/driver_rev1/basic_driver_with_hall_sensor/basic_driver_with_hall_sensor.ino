@@ -13,7 +13,7 @@ BLDCDriver3PWM driver = BLDCDriver3PWM(PWM_U, PWM_V, PWM_W, GATE_EN); // U,V,W
 #endif
 
 // Ineterface Components
-rcPWMCapture rc1 = rcPWMCapture(RC1_PIN, 1000, 2000);
+rcPWMCapture rc1 = rcPWMCapture(RC1_PIN, 2000, 1000);
 
 // taks management
 hw_timer_t * foc_loop_timer = NULL;
@@ -39,7 +39,8 @@ void setup() {
   // Setup the interface
   Serial.begin(115200);
   rc1.enableInterrupts(handleRC);
-  pinMode(ENABLE_PIN, INPUT_PULLUP);
+  
+  //pinMode(ENABLE_PIN, INPUT_PULLUP);
   
   // Setup the sensor
   sensor.init();
@@ -66,7 +67,7 @@ void setup() {
 
   motor.init();
   motor.initFOC();
-  //after calibration the max output voltage to the motor should not be limited
+//  after calibration the max output voltage to the motor should not be limited
   motor.voltage_limit = DC_BUS_VOLTAGE/2; 
 
   //Set up a timer to execute the loopFPC every 500 us (2KHz loop frequency)
@@ -76,6 +77,7 @@ void setup() {
   timerAlarmEnable(foc_loop_timer);
 }
 
+
 float motor_cmd = 0;
 
 void loop() {
@@ -84,8 +86,13 @@ if(RUN_FOC_FLAG)
   motor.loopFOC();
   RUN_FOC_FLAG=false;
 }
-if(digitalRead(ENABLE_PIN)==LOW)
-  motor.move(rc1.readNormalized());
+
+float cmd = rc1.readNormalized();
+
+if(cmd<0.1 && cmd >-0.1)
+  cmd=0;
+if(1)
+  motor.move(cmd*7);
 else
   motor.move(0);
 }

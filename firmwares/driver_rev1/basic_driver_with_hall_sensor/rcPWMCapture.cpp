@@ -41,13 +41,15 @@ void rcPWMCapture::isr()
       old_pulse_width = pulse_width;
       pulse_width = width;
       //Normalize the pulse width to be between -1 and 1
-//      normalized_width = ((float)width-(max_pulse_width+min_pulse_width)/2)/(max_pulse_width-min_pulse_width)/2);
+//      normalized_width = ((float)width-(max_pulse_width+min_pulse_width)/2)/(max_pulse_width-min_pulse_width)/2;
     }
 }
 
 float rcPWMCapture::readNormalized()
 {
-  return normalized_width;
+  float zero_offset = (max_pulse_width+min_pulse_width)/2;
+  float range = (max_pulse_width-min_pulse_width)/2;
+  return ((float)pulse_width-zero_offset)/range;
 }
 
 int32_t rcPWMCapture::readMicroSecs()
